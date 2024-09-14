@@ -55,7 +55,8 @@ end
 
 Start the virtual machine using the command:
 
-vagrant up
+vagrant up or vagrant up --provider=virtualbox
+
 
 
 After the download is complete, you can enter the virtual environment using:
@@ -74,10 +75,14 @@ cd C:\workspaces\workspace\CodeIgniter
 
 #Start the virtual machine using the command:
 
-vagrant up
+vagrant up or vagrant up --provider=virtualbox
 
 
 #After the download is complete, you can enter the virtual environment using:
 
 vagrant ssh
 
+##Test access to your application:
+#After running Vagrant, open your browser and go to:
+
+http://192.168.33.10
