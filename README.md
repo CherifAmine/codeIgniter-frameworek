@@ -3,9 +3,9 @@
 Since you are working on CodeIgniter, I will guide you step by step to use Vagrant to avoid the problems you face with XAMPP. Let's get started:
 
 # Step 1: Install Vagrant and VirtualBox
-Download and install cmder.
-Download and install Vagrant 2.4.1.
-Download and install VirtualBox 6.1.0.
+Download and install cmder Download Full (https://cmder.app/).
+Download and install Vagrant 2.4.1 AMD64 (https://developer.hashicorp.com/vagrant/install).
+Download and install VirtualBox 6.1.0 (https://www.virtualbox.org/wiki/Download_Old_Builds_6_1).
 
 # Step 2: Create a Vagrant Project
 Open your CodeIgniter project folder (exemple : located in XAMPP, e.g. C:\xampp\htdocs\CodeIgniter).
@@ -86,3 +86,8 @@ vagrant ssh
 #After running Vagrant, open your browser and go to:
 
 http://192.168.33.10
+
+
+## Result :
+
+![image](https://github.com/user-attachments/assets/a94d635f-09a0-4424-926e-8b4a6523c954)
